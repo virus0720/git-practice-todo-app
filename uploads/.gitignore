@@ -1,0 +1,4 @@
+# 使用者上傳的檔案都不進 commit
+*
+# 但留下這個檔案自己，讓 uploads/ 資料夾存在
+!.gitignore

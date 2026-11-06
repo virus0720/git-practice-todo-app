@@ -1,0 +1,14 @@
+# CI：開 PR 或合併進 main 時，自動檢查程式碼
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/ci-check.sh

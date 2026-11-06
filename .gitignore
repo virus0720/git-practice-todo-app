@@ -1,0 +1,13 @@
+# 秘密資料：所有 .env 開頭的檔案都不進 commit，只保留範本
+.env*
+!.env.example
+
+# 可以重新產生的套件與建置結果
+node_modules/
+dist/
+
+# 系統與編輯器產生的雜物
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

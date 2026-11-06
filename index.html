@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的代辦清單</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>我的代辦清單</h1>
+    <p class="subtitle">一個用來練習 Git 的小專案</p>
+    <form id="todo-form" class="todo-form">
+      <label class="visually-hidden" for="todo-input">新增待辦事項</label>
+      <input id="todo-input" type="text" placeholder="接下來要做什麼？" autocomplete="off" required>
+      <button type="submit">新增</button>
+    </form>
+    <ul id="todo-list" class="todo-list"></ul>
+    <p id="todo-count" class="todo-count"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

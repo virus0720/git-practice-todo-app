@@ -1,0 +1,4 @@
+# 統一使用 LF 換行，避免 Windows 上出現換行警告，腳本也才能正常執行
+* text=auto eol=lf
+*.png binary
+*.jpg binary
